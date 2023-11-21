@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-prodi {
+    margin: 20px;
+}
+.styled-select {
+    width: 650px;
+    margin: 5px;
+    padding: 8px;
+    font-size: 14px;
+}
+.form-prodi input {
+    background-color: #35A9DB;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.form-prodi  input:hover {
+    background-color: #45a049;
+}
+
+.form-add, .form-delete, .form-edit, .data-baru {
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.input-add, .input-delete, .input-edit, .input-data-baru {
+    background-color: #35A9DB;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+.input-add:hover {
+    background-color: #45a049;
+}
+.input-delete:hover {
+    background-color: #45a049;
+}
+.input-edit:hover {
+    background-color: #45a049;
+}
+.input-data-baru:hover {
+    background-color: #45a049;
+}
+
+.info-mahasiswa {
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+table {
+    color: #302d2d;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+table th {
+    background: #35A9DB;
+    color: #fff;
+    font-size: 14px;
+}
+table th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 2px 10px 2px;
+}
+table tr {
+    background-color: #e7e0e0;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #35A9DB;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #45a049;
+}
